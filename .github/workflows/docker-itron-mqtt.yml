@@ -15,5 +15,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: dockerfile=docker/Dockerfile, docker build -t xcel_itron2mqtt -f ${dockerfile} .
+      run: dockerfile=docker/Dockerfile
 
